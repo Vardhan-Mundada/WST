@@ -1,0 +1,237 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #0a0a23;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar {
+    min-width: 25vw;
+    background-color: #3B3B4F;
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input {
+    min-width: 25vw;
+    background-color: #3B3B4F;
+    border: none;
+    padding: 5px;
+    margin-right: 5px;
+}
+
+.search-bar input::placeholder{
+    font-weight: 200;
+    color: #ffffff93;
+    letter-spacing: 1px;
+}
+
+.center {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.center img {
+    max-height: 40px;
+}
+
+.right {
+    display: flex;
+}
+
+.right button {
+    background-color: transparent;
+    color: #fff;
+    border: 1px white solid;
+    padding: 10px 15px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.right button img {
+    max-height: 30px;
+}
+
+
+.sec1{
+    background-color: #f4f4f4;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    /* padding-top: 3rem; */
+    min-height: 90vh;
+    
+}
+
+.sec1_1{
+    font-size: 1.5rem;
+
+}
+
+.sec1_1 p{
+    font-size: 1.5rem;
+    font-weight: 600;
+    width:55vw;
+    flex-wrap: wraps;
+    
+}
+
+.sec1_1 img{
+    width: 55vw;
+    padding-bottom: 2rem;
+}
+
+.sec1_1 a{
+    margin-top: 1rem;
+    padding: 1rem 15rem;
+    background-color: #feac32;
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#fecc4c),to(#ffac33));
+    background-image: linear-gradient(#fecc4c,#ffac33);
+    border-color: #feac32;
+    border-width: 3px;
+    color: #0a0a23!important;
+    text-decoration: none;
+    
+}
+
+
+.sec2{
+    background-color: #f4f4f4;
+    padding-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec2_1, .sec3_1{
+    display: block;
+    text-align: center;
+}
+
+
+.sec3{
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    display: flex;
+    justify-content: center;
+    color: #d0d0d5;
+    text-align: center;
+    background-color: #3b3b4f;
+}
+
+.sec5{
+    margin-top: -2rem;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+    padding-bottom: 5rem;
+    
+}
+
+.sec5_1{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: center;
+    display: block;
+}
+
+.sec5_1 h3{
+    letter-spacing: 2px;
+    font-size: 2.2rem;
+    /* line-height: 1.5rem; */
+    padding-bottom: 2rem;
+    font-weight: 700;
+    height: 100%;
+    line-height: 1.1;
+    margin-bottom: 40px;
+    color: #3b3b4f;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 3rem;
+}
+
+.sec5_1 .card{
+    margin-top: 3rem;
+    background-color: #fff;
+    display: flex;
+    max-width: 80vw;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card img{
+    height:320px;
+    width: 320px;
+}
+
+.card_text p{
+    width: 90%;
+    margin-left: 5%;
+    text-align: left;
+    letter-spacing: 2px;
+    font-size: 1.2rem;
+}
+.card_text h4{
+    padding-top: 1rem;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 500;
+}
+
+.sec5 a{
+    
+    font-size: 1.5rem;
+    margin-top: 5rem;
+    padding: 1rem 15rem;
+    background-color: #feac32;
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#fecc4c),to(#ffac33));
+    background-image: linear-gradient(#fecc4c,#ffac33);
+    border-color: #feac32;
+    border-width: 3px;
+    color: #0a0a23!important;
+    text-decoration: none;
+    
+}
+
+
+.sec6{
+    margin-top: -2rem;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+    padding-bottom: 5rem;
+    
+}
+
+.sec6_1{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: center;
+    display: block;
+    margin-left: 12.5vw;
+    max-width: 70vw;
+}
+
+.sec6_1  h2{
+    font-size: 2.5rem;
+    line-height: 3rem;
+    letter-spacing: 2px;
+}
