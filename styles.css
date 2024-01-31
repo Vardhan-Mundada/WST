@@ -235,3 +235,59 @@ body {
     line-height: 3rem;
     letter-spacing: 2px;
 }
+
+
+.sec7{
+    margin-top: -2rem;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+    padding-bottom: 5rem;
+    
+}
+
+.sec7_1{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: left;
+    display: block;
+    margin-left: 20vw;
+    max-width: 60vw;
+}
+
+.sec7_1  h1{
+    text-align: left;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    letter-spacing: 2px;
+    padding-bottom: 2rem;
+}
+
+.que{
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 1.5rem;
+    font-size: 1.3rem;
+}
+
+.ans{
+    line-height: 1.5rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.sec7 a{
+    
+    font-size: 1.5rem;
+    margin-top: 5rem;
+    padding: 1rem 15rem;
+    background-color: #feac32;
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#fecc4c),to(#ffac33));
+    background-image: linear-gradient(#fecc4c,#ffac33);
+    border-color: #feac32;
+    border-width: 3px;
+    color: #0a0a23!important;
+    text-decoration: none;
+    
+}
