@@ -379,6 +379,9 @@ footer .one{
 
  /* Media Queries */
  @media screen and (max-width:480px) {
+     body{
+         min-width:100vw;
+     }
     .search-bar{
         visibility: hidden;
     }
